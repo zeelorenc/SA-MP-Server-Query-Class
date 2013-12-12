@@ -148,7 +148,7 @@ namespace SampQueryApi
                                 break;
 
                             case 'p':
-                                dData.Add("Ping", ping.ToString());
+                                dData.Add("ping", ping.ToString());
                                 break;
 
                         }
