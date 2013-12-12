@@ -8,7 +8,7 @@ Basic Samp Server Query API for C#
 2. using SampQueryApi; // This should be on-top of the file you're using.
 3. Have fun!
 
-You may hack it, modify it, repost it but please do not sell or lose the credits. That's all.
+You may hack it, modify it, repost it but please do not sell the code or lose the credits. That's all.
 
 Here's an example (C#) - It's very simple:
 ```
