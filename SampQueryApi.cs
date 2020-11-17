@@ -12,6 +12,7 @@ using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Collections.Generic;
+using System.Text;
 
 namespace SampQueryApi
 {
@@ -108,7 +109,7 @@ namespace SampQueryApi
                 string ping = ReceiveMS.Subtract(TransmitMS).Milliseconds.ToString();
 
                 MemoryStream stream = new MemoryStream(szReceive);
-                BinaryReader read = new BinaryReader(stream);
+                BinaryReader read = new BinaryReader(stream, Encoding.ASCII);
 
                 using (stream)
                 {
